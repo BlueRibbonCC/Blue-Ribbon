@@ -406,7 +406,7 @@ h2 {
   font-weight: 600;
 }
 
-.facility-line li:not(:last-child)::after {
+.facility-line li:not(:first-child)::before {
   content: "•";
   margin-inline: 0.65rem;
   color: var(--color-accent);
@@ -565,6 +565,7 @@ h2 {
   padding: clamp(4.5rem, 8vw, 7rem) 0;
   background: var(--color-primary);
   color: var(--color-on-dark);
+  scroll-margin-top: 5.25rem;
 }
 
 .contact-grid {
